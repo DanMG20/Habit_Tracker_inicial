@@ -1,0 +1,28 @@
+[
+    {
+        "nombre_habito": "Meditar (10 min) ",
+        "dias_ejecucion": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "Fecha_creacion": "2024-12-28"
+    },
+    {
+        "nombre_habito": "Correr",
+        "dias_ejecucion": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "Fecha_creacion": "2024-12-29"
+    }
+]
