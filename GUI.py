@@ -491,7 +491,6 @@ class GUI:
         # Guardamos UNICAMENTE el numero de semana en el que nos encontramos
         semana_corriente = self.fecha_manana.isocalendar().week
         # Guardamos el nombre o indice del dia donde Lunes = 0,----- Domingo =6
-        numero_dia = self.fecha_hoy.weekday()
         # Aqui cambiamos el inicio de la semana a domingo
         dia_semana_domingo = (self.fecha_hoy.weekday() + 1) % 7
         # aqui calculamos el dia de inicio de semana que seria el domingo
@@ -860,6 +859,7 @@ if __name__ == "__main__":
 
     # Maximizar la ventana
     ventana_principal.state("zoomed")
+    
 
     # Guardar la posición cuando la ventana se cierre
     ventana_principal.protocol("WM_DELETE_WINDOW",
